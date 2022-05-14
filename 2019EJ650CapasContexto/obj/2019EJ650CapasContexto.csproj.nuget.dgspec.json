@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasContexto\\2019EJ650CapasContexto.csproj": {}
+  },
+  "projects": {
+    "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasContexto\\2019EJ650CapasContexto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasContexto\\2019EJ650CapasContexto.csproj",
+        "projectName": "2019EJ650CapasContexto",
+        "projectPath": "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasContexto\\2019EJ650CapasContexto.csproj",
+        "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
+        "outputPath": "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasContexto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasEntidades\\2019EJ650CapasEntidades.csproj": {
+                "projectPath": "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasEntidades\\2019EJ650CapasEntidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasEntidades\\2019EJ650CapasEntidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasEntidades\\2019EJ650CapasEntidades.csproj",
+        "projectName": "2019EJ650CapasEntidades",
+        "projectPath": "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasEntidades\\2019EJ650CapasEntidades.csproj",
+        "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
+        "outputPath": "C:\\UNICAESWEB\\DPWPractica\\2019EJ650CapasApp\\2019EJ650CapasEntidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

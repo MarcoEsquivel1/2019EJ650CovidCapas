@@ -1,0 +1,15 @@
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\bin\Debug\net5.0\2019EJ650CapasContexto.deps.json
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\bin\Debug\net5.0\2019EJ650CapasContexto.dll
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\bin\Debug\net5.0\ref\2019EJ650CapasContexto.dll
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\bin\Debug\net5.0\2019EJ650CapasContexto.pdb
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\bin\Debug\net5.0\2019EJ650CapasEntidades.dll
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\bin\Debug\net5.0\2019EJ650CapasEntidades.pdb
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\obj\Debug\net5.0\2019EJ650CapasContexto.csproj.AssemblyReference.cache
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\obj\Debug\net5.0\2019EJ650CapasContexto.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\obj\Debug\net5.0\2019EJ650CapasContexto.AssemblyInfoInputs.cache
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\obj\Debug\net5.0\2019EJ650CapasContexto.AssemblyInfo.cs
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\obj\Debug\net5.0\2019EJ650CapasContexto.csproj.CoreCompileInputs.cache
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\obj\Debug\net5.0\2019EJ650CapasContexto.csproj.CopyComplete
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\obj\Debug\net5.0\2019EJ650CapasContexto.dll
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\obj\Debug\net5.0\ref\2019EJ650CapasContexto.dll
+C:\UNICAESWEB\DPWPractica\2019EJ650CapasApp\2019EJ650CapasContexto\obj\Debug\net5.0\2019EJ650CapasContexto.pdb

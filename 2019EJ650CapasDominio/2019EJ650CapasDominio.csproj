@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_2019EJ650CapasDominio</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\2019EJ650CapasContexto\2019EJ650CapasContexto.csproj" />
+    <ProjectReference Include="..\2019EJ650CapasEntidades\2019EJ650CapasEntidades.csproj" />
+  </ItemGroup>
+
+</Project>

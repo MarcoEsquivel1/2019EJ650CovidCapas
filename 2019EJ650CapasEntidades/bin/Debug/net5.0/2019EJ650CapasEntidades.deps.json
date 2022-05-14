@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "2019EJ650CapasEntidades/1.0.0": {
+        "runtime": {
+          "2019EJ650CapasEntidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "2019EJ650CapasEntidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

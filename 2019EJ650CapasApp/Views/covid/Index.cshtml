@@ -1,0 +1,79 @@
+﻿@model IEnumerable<_2019EJ650CapasEntidades.Casos>
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 text-center"><h2>Registro Covid</h2></div>
+        <div class="col-12 text-center"><p>El siguiente formulario es para llevar el registro de casos reportados de Covid por departamento y genero</p></div>
+    </div>
+</div>
+
+
+<h2>Reportar casos</h2>
+
+<form method="post">
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-md-6 p-2">
+                @Html.Label("Departamento ")
+                @Html.DropDownList("departamentoId", (IEnumerable<SelectListItem>)ViewBag.ComboDepartamentosValores, new { @class = "form-select", style = "width: 100%;" })
+
+            </div>
+            <div class="col-md-6 p-2">
+                @Html.Label("Genero ")
+                @Html.DropDownList("generoId", (IEnumerable<SelectListItem>)ViewBag.ComboGenerosValores, new { @class = "form-select", style = "width: 100%;" })
+
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-md-4 p-2">
+                @Html.Label("Casos Confirmados ")
+                @Html.TextBox("confirmados", "0", new { @min = "0", @type = "number", @class = "form-control", style = "width: 100%;" })
+
+            </div>
+            <div class="col-md-4 p-2">
+                @Html.Label("Casos Recuperados ")
+                @Html.TextBox("recuperados", "0", new { @min = "0", @type = "number", @class = "form-control", style = "width: 100%;" })
+
+            </div>
+            <div class="col-md-4 p-2">
+                @Html.Label("Casos Fallecidos ")
+                @Html.TextBox("fallecidos", "0", new { @min = "0", @type = "number", @class = "form-control", style = "width: 100%;" })
+
+            </div>
+        </div>
+        <div class="row ">
+            <input type="submit" name="response" value="Guardar Registro" formaction=@Url.Action("postNew") formmethod="post" class="btn btn-success btn-lg btn-block" />
+        </div>
+    </div>
+</form>
+
+<div class="card shadow border-0 mt-5">
+    <div class="card-body">
+        <h5 class="card-title">Casos reportados</h5>
+        <table class="table table-striped table-bordered table-hover">
+            <thead class="table-ligh">
+                <tr>
+                    <th>Departamento</th>
+                    <th>Genero</th>
+                    <th>Confirmados</th>
+                    <th>Recuperados</th>
+                    <th>Fallecidos</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th>@Html.DisplayFor(modelItem => item.departamento)</th>
+                        <th>@Html.DisplayFor(modelItem => item.genero)</th>
+                        <td>@item.confirmados</td>
+                        <td>@item.recuperados</td>
+                        <td>@item.fallecidos</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <footer class="text-center">Derechos Reservados: Marco Esquivel - Diego Palacios</footer>
+    </div>
+</div>
